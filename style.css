@@ -1,0 +1,70 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+h1,
+h2 {
+  font-family: Lato;
+}
+#PIDialog {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 473px;
+  height: 293px;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
+.track-header {
+  padding: 5px 10px 10px;
+  border-bottom: 0.5px solid #bebebe;
+  cursor: move;
+}
+.button_close {
+  margin-top: -1px;
+  margin-left: auto !important;
+}
+#tags {
+  position: absolute;
+  margin-left: 10px;
+  bottom: 76.4%;
+  height: 25px;
+  width: 447px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  border-radius: 2px;
+  outline: none;
+}
+#PIlist {
+  height: 175px;
+  width: 447px;
+  margin-top: 37px;
+  background: #f9f9f9;
+  margin-left: 10px;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 8px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  list-style: none;
+}
+#limheight {
+  margin-right: 2px;
+  height: 100px; /*your fixed height*/
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 2; /*3 in those rules is just placeholder -- can be anything*/
+}
+
+#limheight li {
+  display: inline-block; /*necessary*/
+}
+#stlyehead {
+  display: flex;
+  flex-wrap: wrap;
+}
+#stlyehead > * {
+  padding-top: 10px;
+  margin-left: 15px;
+  flex: auto;
+}
